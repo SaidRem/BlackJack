@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
-    background-image: url("images/table.png");
+    font-family: 'Noto Sans JP', sans-serif;
+    background-image: url("images/BlackJack_background.jpg");
     background-size: cover;
     font-weight: bold;
     color: white;
@@ -12,7 +15,7 @@ h1 {
 }
 
 #ask_player {
-    font-style: italic;
+    font-family: 'Kaushan Script', cursive;
 }
 
 button {
