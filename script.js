@@ -32,6 +32,7 @@ function startGame() {
     let secondCard = getRandomCard()
     cards = [firstCard, secondCard]
     sum = firstCard + secondCard
+    message_tag.className = ''
     renderGame()
 }
 
@@ -47,9 +48,11 @@ function renderGame() {
     } else if (sum === 21) {
         message = "You've got Blackjack!"
         hasBlackJack = true
+        message_tag.className = 'blackjack'
     } else {
-        message = "You're out of the game!"
+        message = "GAME OVER!"
         isAlive = false
+        message_tag.className = 'game'
     }
     message_tag.textContent = message
 }
