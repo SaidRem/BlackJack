@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
@@ -15,8 +16,16 @@ h1 {
 }
 
 #ask_player {
-    font-family: 'Kaushan Script', cursive;
+    /* font-family: 'Kaushan Script', cursive; */
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
+}
+
+.game {
+  color: red;
+}
+.blackjack {
+  color: rgb(177, 166, 19);
 }
 
 /* button {
